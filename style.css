@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dadada;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #131921;
+  padding: 0px 7px;
+  color: white;
+}
+.nav-country{
+    display: flex;
+    align-items: end;
+    /* justify-content: center; */
+    margin: 15px;
+    font-size: 12px;
+    color: #cfcfcf;
+}
+.nav-country h1{
+    color: #fff;
+}
+.nav-search{
+    flex: 1;
+    display:flex ;
+    align-items: center;
+    background: #fff;
+    color: grey;
+    margin-left: 12px;
+    max-width: 1000px;
+    border-radius: 4px;
+}
+.nav-search-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e5e5;
+    padding: 10px 12px;
+    border-radius: 4px 0 0 4px;
+}
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+
+}
+.nav-search-icon{
+    max-width: 40px;
+    padding:8 ;
+    background: #ffd64f;
+    border-radius: 0 4px 4px 0 ;
+}
+.nav-language{
+    display: flex;
+    align-items:center ;
+    gap: 2px;
+    font-weight:600 ;
+    margin-left: 15px;
+}
+.nav-text{
+    margin-left: 15px;
+}
+
+.nav-text p{
+    font-size: 12px;
+}
+.nav-text h1{
+    font-size: 18px;
+}
+.nav-return{
+    margin-left:15px ;
+}
+.nav-return P {
+    font-size: 12px ;
+}
+.nav-return h1{
+    font-size: 18px ;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding: 8px 20px;
+    background: #232f3e;
+    color: white;
+    font-size: 17px;
+}
+.nav-bottom div{
+    align-items: center;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+}
+.header-slider ul{
+    display: flex;
+    overflow-y:hidden ;
+}
+.header-image{
+    max-width:100%;
+    mask-image: linear-gradient(to bottom, #d03d3d 16%, transparent 100%);
+}
+.header-slider a {
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background: #ffffff8a;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.control-next{
+    right: 0;
+}
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin: 20px 30PX;
+}
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    max-width: 24%;
+    min-height: 200px;
+    z-index: 1;
+    background: #fff;
+
+
+}
+.box-col h1{
+    font-weight: 500;
+    font-size: 19px;
+}
+.box-col a{
+    font-size: 13px;
+    color: #009999;
+    font-weight: 500;
+}
+.header-box{
+    margin-top: -18vw;
+}
+
+.product-slider{
+    margin: 0 30px;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.product-slider .product{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 10px;
+}
+.product-slider .product img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.product::-webkit-scrollbar{
+    display: none;
+}
+.product-slider-with-price{
+    background: #fff;
+    margin: 0px 30px ;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.product-slider-with-price .products{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+.product-slider-with-price .products::-webkit-scrollbar{
+    display: none;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: #fbfbfb;
+    min-width: 250px;
+}
+.product-card img{
+    width: 110px;
+    margin: 0 50px;
+}
+.product-offer p {
+background: #be0b3b;
+color: #fff;
+display: inline-block;
+padding: 2px 5px;
+font-size: 13px;
+margin: 8px 0 ;
+border-radius: 2px;
+}
+.product-offer span{
+    font-size: 12px;
+    font-weight: 500;
+    color: #be0b3b;
+}
+.product-price{
+color: grey;
+font-size: 13px;
+}
+.product-card h3{
+font-size: 15px;
+font-weight: 400;
+color: #525252;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #121921;
+    padding: 20px 60px;
+}
